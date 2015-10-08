@@ -10,6 +10,14 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *Name;
 
+@property (strong, nonatomic) IBOutlet UITextField *Phone;
+
+@property (strong, nonatomic) IBOutlet UITextField *DOB;
+
+@property (strong, nonatomic) IBOutlet UITextField *Email;
+
+- (IBAction)saveStudentData:(id)sender;
 @end
 

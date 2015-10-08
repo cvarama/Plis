@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%@",NSHomeDirectory());
+    //NSLog(@"%@",NSDocumentDirectory());
+
+    
+    NSMutableString *homeDir = [[NSMutableString alloc]initWithString:NSHomeDirectory()];
+    
+                                
+    //NSString *filePath = [NSDocumentDirectory ]
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +32,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)saveStudentData:(id)sender {
+    //self.Name.text=
+}
 @end
